@@ -1,0 +1,36 @@
+/* PropertyCard.css */
+.property-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.property-card {
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 300px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.property-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px 8px 0 0;
+}
+
+.property-details {
+  padding: 15px;
+}
+
+.property-title {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.property-location,
+.property-price,
+.property-description {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
